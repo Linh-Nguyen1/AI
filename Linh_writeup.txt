@@ -1,0 +1,9 @@
+twitter_api.txt: Twitter tokens ans secret keys
+get_tweet.py: use the Twitter tokens assigned when signed up for a developer account to fetch tweets from twitter.
+              fetch tweets using hashtags and word searches according to our subjects of interests(Climate change, election, stimulus checks)
+              output the tweest to .csv files
+merge.py: merges the .csv files into one file stimulus_raw.csv
+Twitter-Analysis.ipynb: clean up the tweets in stimulus_raw.csv- drop unuseful columns; removed stop words, hastags, punctuations,...; remove duplicated tweets;
+                        tokenize the words of the tweets.
+                        collect the destinations of the tweets, so i can perform an analysis of people from different regions opinions.
+                        
