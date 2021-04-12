@@ -1,0 +1,7 @@
+tweets_raw - The orginal data set before processing
+
+tweets_processed - The output data set after processing
+
+election_1.ipynb - clean up the tweets in tweets_raw.csv- drop unuseful columns; removed stop words, hastags, punctuations,remove duplicated tweets;
+                        tokenize the words of the tweets.
+                        collect the destinations of the tweets, so i can perform an analysis of people from different regions opinions.
