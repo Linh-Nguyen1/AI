@@ -4,19 +4,26 @@ import numpy as np
 import os
 
 # Create a hashtags list
-search_list = ["#vote",
-            "#election"]
+search_list = ["vote",
+            "uselection",
+            "election",
+            "stimulus check",
+            "biden lied",
+            "stimulus",
+            "climate change",
+            "environment",
+            "global warming"]
 
 # Create a search list
-hashtags = [#"#stimuluscheck",
-            #   "#bidenlied",
-            #   "#stimulus",
-             #  "#climatechange",
-            #   "#environment",
-            #   "#globalwarming",
-               "#uselection",
-               "#vote"]
-            #   "#election"]
+hashtags = ["#stimuluscheck",
+            "#bidenlied",
+            "#stimulus",
+            "#climatechange",
+            "#environment",
+            "#globalwarming",
+            "#uselection",
+            "#vote",
+            "#election"]
 
 
 # Get the necessary API information from a text file
@@ -39,7 +46,7 @@ def get_tweets(search, isHashtag):
     
     # Get the tweets
     tweets = tweepy.Cursor(api.search, q= search+" -filter:retweets",
-            lang="en",since="2021-01-01", tweet_mode='extended').items(1500)
+            lang="en",since="2020-07-01", tweet_mode='extended').items(1500)
     
     # Iterate over tweets
     for tweet in tweets:
