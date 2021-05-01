@@ -1,0 +1,6 @@
+Zijun's checkpoint 2
+Description: The files for checkpoint 1 don't mention right here. It's on checkpoint 1 txt file
+
+Tweets_likhitha_processed.csv and tweets_likhitha_raw.csv : Help the group to preprocess and clean the dataset. Using raw csv file as input produces processed csv file as output.(zijun)
+
+Election_1.ipynb : Mainly using this code implementation for preprocessing and cleaning the dataset. (Zijun)
